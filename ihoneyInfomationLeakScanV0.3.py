@@ -32,8 +32,8 @@ def vlun(url, datefile):
                 logging.warning("[ ] {}".format(url))
         else:
             logging.warning("[-] %s" % url)
-    except Exception as e:
-        print e
+    except:
+        pass
 
 
 def ucheck(target=None):
